@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGNIN</title>
+    <style>
+    body{
+        background-color: rgb(25, 29, 75);
+        background-image: url("/bg.jpg");
+    }
+    .container1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border : 2px solid grey;
+        background-color: rgb(33, 110, 140);
+        width: 40%;
+        margin: auto;
+        border-radius: 10%;
+        background-image: url("/bg.jpg");
+        color: aliceblue;
+    }
+    .nav1 {
+          list-style-type: none;
+          width: 100%;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          align-self: flex-end;
+          padding-top: 4%;
+          overflow: hidden;
+        }
+        
+    li a {
+          display: block;
+          color:aliceblue;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          float: right; 
+        }
+    
+    .heading{
+        display:flex;
+        width: 100%;
+    }
+    .idea{
+        margin: 0% 10%;
+
+    }
+    .navi{
+        margin: 0% 10%;
+        padding-left: 25%;
+    }
+    h1{
+        color:aliceblue;
+    }h2{
+        text-align: center;
+        color: aliceblue;
+    }
+    .div1{
+        display: flex;
+        justify-content: center;
+    }
+    .it{
+        margin: 10%;
+        width: 100%;
+    }
+    .it1{
+        padding-left: 14%;
+    }
+    .i1{
+        width: 200px;
+        height: 200px;
+    }
+    .div2{
+        text-align: center;
+    }
+
+    </style>
+</head>
+<body>
+
+    <div class="heading">
+        <div class="idea">
+            <h1>IDEATHON</h1>
+        </div>
+        <div class="navi">
+            <ul class="nav1">
+                <li><a href="">HOME</a></li>
+                <li><a href="">SIGNIN</a></li>
+                <li><a href="">SIGNUP</a></li>
+                <li><a href="./DETAILS.html">DETAILS</a></li>  
+                <li><a href="./shedule.html">SCHEDULE</a></li>  
+            </ul>
+        </div>
+    </div>
+    <br><br>
+    <div class="container">
+        <h2>SIGN IN</h2>
+        <br>
+        <div class="container1">
+            <div class="img1">
+                <h2>USER</h2>
+                <form action="./shedule.html">
+                    <br>
+                    <div class="div1">
+                        <div class="it"><label for="mail">EMAIL</label></div>
+                        <div class="it it1"><input type="email" id="i1" name=""></div>
+                    </div>
+                    <div class="div1">
+                        <div class="it"><label for="pass">PASSWORD</label></div>
+                        <div class="it"><input type="password"></div>
+                    </div>
+                    <br><br>
+                    <div class="div2">
+                        <input type="submit" value="SIGN IN">
+                    </div>
+                    
+                    
+                    <br>
+                    <br>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

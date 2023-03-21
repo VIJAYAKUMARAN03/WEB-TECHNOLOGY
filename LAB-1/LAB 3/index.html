@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="icon" href="images.png">
+    <title>KEC IDEATHON</title>
+</head>
+<style>
+    *{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #n{
+        font-weight: bold;
+    }
+    .din{
+        padding: 5px;
+        color: white;
+    }
+    .ha{
+        padding: 5px;
+    }
+    .ha:hover{
+        cursor: pointer;
+    }
+    #queue{
+        padding: 5px;
+    }
+</style>
+<body>
+    <nav id="n" class="navbar navbar-expand-lg bg-success-subtle">
+        <div class="container-fluid">
+            <img src="EE0vCMfVAAA_Lxj.png" alt="#" class="navbar-brand" width="110" height="80">
+            <a class="navbar-brand" href="#">KEC IDEATHON</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT US</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Schedule
+                        </a>
+                        <ul class="dropdown-menu bg-success-subtle">
+                            <li>
+                                <a class="dropdown-item" href="#">Review Schedule</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Idea Submission Schedule</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-item">Presentation Schedule</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Previous Ideathon</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./TRL.html" class="nav-link">Project TRL Levels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">PPT Template</a>
+                    </li>
+                </ul>
+                <a class="nav-link" href="https://kumaranvasanth.github.io/login-page/">
+                    <button class="d-flex btn btn-outline-success" type="submit">Login</button>
+                </a>
+                <img src="tbi.png" alt="#" class="d-flex navbar-brand" height="50" width="100">
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleInterval" class="carousel slide din" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="first.jpg" class="d-block w-100" alt="#">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="second.jpg" class="d-block w-100" alt="#">
+            </div>
+            <div class="carousel-item">
+                <img src="third.jpg" class="d-block w-100" alt="#">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="bg-body-tertiary" id="queue">
+        <marquee behavior="" direction="Left">
+            <a href="#" style="text-decoration: none; color: #4eec40; font-size: large;">
+                Register for the Ideathon 2k23
+            </a>
+        </marquee>
+    </div>
+    <div class="row" style="padding: 5px;">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card bg-success-subtle" style="text-align: center;">
+            <div class="card-body">
+              <h5 class="card-title">Login to Register your Idea</h5>
+              <p class="card-text">Login with your account to register your Idea to participate in the Ideathon 2k23</p>
+              <a href="https://kumaranvasanth.github.io/login-page/" class="btn btn-success">Login</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card bg-warning-subtle" style="text-align: center;">
+            <div class="card-body">
+              <h5 class="card-title">Doesn't Have an Account</h5>
+              <p class="card-text">Create an account to participate in the Ideathon 2k23.</p>
+              <a href="https://kumaranvasanth.github.io/NEW-REGISTRATION/" class="btn btn-warning text-white">Create a New Account</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 ha">
+        <div class="col hav">
+            <div class="card h-100">
+                <img src="idea.jfif" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Ideathon</h5>
+                    <p class="card-text">The Ideathon will be conducted in each departments. The students are allowed to present their business or innovative ideas.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">The best teams are shortlised for next round.</small>
+                </div>
+            </div>
+        </div>
+        <div class="col hav">
+            <div class="card h-100">
+                <img src="poc.jfif" height="270px" width="100%" class="card-img-top" alt="#">
+                <div class="card-body">
+                    <h5 class="card-title">PoC Presentation</h5>
+                    <p class="card-text">The top 20 Ideas of each departments are asked to develop their Proof of Concept. The PoC will be reviewed for the next round shortlisting.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">The top 10 teams are allowed to present their projects in Expo</small>
+                </div>
+            </div>
+        </div>
+        <div class="col hav">
+            <div class="card h-100">
+                <img src="prototype.jpg" height="270" class="card-img-top" alt="#">
+                <div class="card-body">
+                    <h5 class="card-title">Prototype Expo</h5>
+                    <p class="card-text">The finale of the Ideathon where the top teams from each departments present projects to showcase their best.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">The top will be provived with funds and cash prices.</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
