@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.calculator {
+    padding: 10px;
+    border-radius: 1em;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    background-color: #191b28;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.display-box {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #dcdbe1;
+    border: solid rgba(88, 10, 10, 0.436) 0.5px;
+    color: black;
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+
+}
+
+.tbox{
+    background-color: #dcdbe1;
+    border-radius: 5px;
+}
+
+input[type=button] {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #64278f;
+    color: white;
+    border: solid black 0.5px;
+    border-radius: 5px;
+    outline: none;
+    width: 70px;
+    height: 40px;
+}
+input[id=btni]{
+    background-color: #fb0066;
+    width: 33px;
+    margin: 10%
+}
+input[id=btnii]
+{
+    background-color: #fb0066;
+    margin: 5%;
+}
+input:active[type=button] {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+.l1,.l2,.l3,.l4,.l0,.l5{
+    display: flex;
+    justify-content: space-evenly;
+}
+.i{
+    margin: 5%;
+}
+
+#btn {
+    background-color: #fb0066;
+}
+
+#l5i{
+    font-family: 'Orbitron', sans-serif;
+    background-color: #64278f;
+    color: white;
+    border: solid black 0.5px;
+    border-radius: 5px;
+    outline: none;
+    width: 55px;
+    height: 40px;
+}
+
+#l5i1{
+    font-family: 'Orbitron', sans-serif;
+    background-color: #64278f;
+    color: white;
+    border: solid black 0.5px;
+    border-radius: 5px;
+    outline: none;
+    width: 55px;
+    height: 40px;
+    background-color: #fb0066;
+}
+.i5{
+    margin: 3.6%;
+}
+
+h1{
+    text-align: center;
+    color: #64278f;
+    -webkit-text-stroke: 0.5px #fb0066;
+}
+
+body{
+    background-color: pink;
+}
